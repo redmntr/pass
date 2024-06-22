@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #1E1E1E; /* Dark background */
+    color: #EEE; /* Light gray text */
+}
+
+.container {
+    text-align: center;
+    padding: 50px 0;
+}
+
+#h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: white; /* White color */
+}
+
+#h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: #4ADF85; /* Green */
+}
+
+#p1 {
+    color: #CCC; /* Medium gray */
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+input[type="number"] {
+    width: 50px;
+    height: 30px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #4ADF85; /* Green border */
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: #333; /* Dark gray background */
+    color: #EEE; /* Light gray text */
+    outline: none; /* Remove default outline */
+}
+
+input[type="number"]:focus {
+    border-color: #45CC76; /* Lighter green on focus */
+}
+
+button {
+    background: #4ADF85; /* Green */
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    padding: 12px 24px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #45CC76; /* Lighter green on hover */
+}
+
+.divider {
+    width: 80%;
+    height: 1px;
+    background-color: #666; /* Medium gray */
+    margin: 40px auto;
+}
+
+#passwords-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust space between passwords */
+    margin-top: 30px;
+}
+
+.password {
+    font-family: 'Courier New', Courier, monospace; /* Web-safe font */
+    font-size: 24px;
+    color: #4ADF85; /* Green */
+    margin: 0; /* Remove default paragraph margin */
+    padding: 10px 20px; /* Add padding */
+    background-color: #333; /* Dark gray background */
+    border-radius: 5px;
+}
